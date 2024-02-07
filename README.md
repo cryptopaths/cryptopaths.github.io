@@ -1,2 +1,11 @@
 # cryptopaths.github.io
-CLASS WEBSITE FOR M.Tech Cryptology and Security - Batch 2023-25 of Indian Statistical Institute, Kolkata
+THE CLASS WEBSITE FOR M.Tech Cryptology and Security - Batch of 2023-25 at Indian Statistical Institute, Kolkata
+
+This site was built using [GitHub Pages](https://pages.github.com/).
+
+> [!NOTE]
+> _AUTHOR OF THE PROJECT_ : `ARGHA SARDAR`
+>
+> _CONTACT ME_ : `arghacious@gmail.com`
+
+_LINK FOR THE WEBSITE_ : [Click Here](cryptopaths.github.io)
