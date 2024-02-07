@@ -8,4 +8,4 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 >
 > _CONTACT ME_ : `arghacious@gmail.com`
 
-_LINK FOR THE WEBSITE_ : [Click Here](cryptopaths.github.io)
+_LINK FOR THE WEBSITE_ : [Click Here](https://cryptopaths.github.io/)
