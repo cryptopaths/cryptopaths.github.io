@@ -82,7 +82,10 @@ body {
 }
 
 .bottom-arrow:hover {
-    background-color: rgba(255, 255, 255, 1); /* Increase opacity on hover */
+    color: #42ffb3;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
+    background-color: #6cea7b; /* Increase opacity on hover */
 }
 
 .start-page-action {
@@ -106,10 +109,18 @@ body {
     background-color: #5adbb5;
     color: #000000;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    padding: 10px 15px;
+    padding: 8px 12px;
     border: none;
     border-radius: 36px;
     cursor: pointer;
+}
+
+.start-page-button button:hover {
+    background-color: #216cbc; /* Increase opacity on hover */
+    color: #b2d7fe;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
 }
 
 .start-page-mail button {
@@ -119,10 +130,18 @@ body {
     background-color: #5adbb5;
     color: #000000;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    padding: 10px 15px;
+    padding: 8px 12px;
     border: none;
     border-radius: 36px;
     cursor: pointer;
+}
+
+.start-page-mail button:hover {
+    background-color: #ba1288; /* Increase opacity on hover */
+    color: #ffbbeb;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(5px) scale(1.1);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
 }
 
 .content {
@@ -294,11 +313,18 @@ body {
     color: #ffffff;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     border: none;
-    padding: 10px 20px;
+    padding: 8px 15px;
     border-radius: 5px;
     font-size: 1.15rem;
     cursor: pointer;
-    
+}
+
+.download-button:hover {
+    color: #1f4924;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-7px) scale(1.1);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
+    background-color: #6cea7b; /* Increase opacity on hover */
 }
 
 .social-media {
@@ -324,12 +350,25 @@ body {
 }
 
 .social-media a:hover {
-    background-color: #f5f5f5;
+    transform: scale(1.1);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
 }
 
 .social-media a img {
     width: 23px;
     height: 23px;
+}
+
+.instagram:hover{
+    background-color: #d62976; /* Increase opacity on hover */
+    /* color: #b2d7fe; */
+    transition: all 0.3s ease-in-out;
+    transform: rotate(1080deg);
+}
+/* NOT WORKING !! */
+
+.instagram a img:hover{
+    transform: rotate(1080deg);
 }
 
 footer {
@@ -442,7 +481,10 @@ footer img {
     }
     
     .bottom-arrow:hover {
-        background-color: rgba(255, 255, 255, 1); /* Increase opacity on hover */
+        color: #42ffb3;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
+        background-color: #6cea7b; /* Increase opacity on hover */
     }
 
     .start-page-action {
@@ -463,6 +505,14 @@ footer img {
         border-radius: 36px;
         cursor: pointer;
     }
+
+    .start-page-button button:hover {
+        background-color: #216cbc; /* Increase opacity on hover */
+        color: #b2d7fe;
+        transition: all 0.3s ease-in-out;
+        transform: translateY(-5px) scale(1.1);
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
+    }
     
     .start-page-mail button {
         font-family: 'Marcellus', serif;
@@ -475,6 +525,14 @@ footer img {
         border: none;
         border-radius: 36px;
         cursor: pointer;
+    }
+
+    .start-page-mail button:hover {
+        background-color: #ba1288; /* Increase opacity on hover */
+        color: #ffbbeb;
+        transition: all 0.3s ease-in-out;
+        transform: translateY(5px) scale(1.1);
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
     }
 
     .content {
