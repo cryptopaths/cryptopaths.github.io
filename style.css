@@ -237,7 +237,15 @@ body {
     font-size: 3rem;
     margin-bottom: 10px;
     color: #ff0c79;
-    text-shadow: 2px 2px 10px rgb(0, 0, 0), 2px 2px 10px #fcb1d3, 2px 2px 10px #8d0a45;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #fcb1d3, 5px 5px 10px #8d0a45;
+}
+
+.name-b {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #0cdbff;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #c5f6ff, 5px 5px 10px #075462;
 }
 
 .content-student {
@@ -290,11 +298,9 @@ body {
 }
 
 .download-cv {
-    
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    
 }
 
 .download-cv img {
@@ -316,14 +322,19 @@ body {
     border-radius: 5px;
     font-size: 1.15rem;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .download-button:hover {
-    color: #1f4924;
-    transition: all 0.3s ease-in-out;
+    color: #224636;
+    /* transition: all 0.3s ease-in-out; */
     transform: scale(1.1);
     box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
-    background-color: #6cea7b; /* Increase opacity on hover */
+    background-color: #32f9a0; /* Increase opacity on hover */
+}
+
+.download-button:active {
+    transform: scale(0.8); /* Optional: Add a smaller scale on click if desired */
 }
 
 .social-media {
@@ -390,10 +401,11 @@ body {
 
 footer {
     font-family: 'Bad Script', cursive;
+    font-size: small;
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 8px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -611,7 +623,16 @@ footer img {
         font-size: 1.8rem;
         margin-bottom: 20px; /* Adjust the margin as needed */
         color: #ff0c79;
-        text-shadow: 2px 2px 10px rgb(0, 0, 0), 2px 2px 10px #fcb1d3, 2px 2px 10px #8d0a45;
+        text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #fcb1d3, 5px 5px 10px #8d0a45;
+        text-align: center; /* Center the text */
+    }
+
+    .name-b {
+        font-family: 'Protest Riot', sans-serif;
+        font-size: 1.8rem;
+        margin-bottom: 20px; /* Adjust the margin as needed */
+        color: #0cdbff;
+        text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #c5f6ff, 5px 5px 10px #075462;
         text-align: center; /* Center the text */
     }
 
