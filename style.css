@@ -143,6 +143,8 @@ body {
     box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
 }
 
+/* Add a Resize in negative whebn clicked Just like Download CV */
+
 .content {
     background-color: rgba(255, 255, 255, 0.8); /* Add some opacity to make text readable */
     padding: 50px;
@@ -161,9 +163,9 @@ body {
 }
 
 .content-write {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     /* font-family: 'Eczar', serif; */
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .container {
@@ -274,11 +276,19 @@ body {
     margin-top: -100px;
 }
 
-.content-student-rev-misc {
+.name-misc {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #ff3041;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #c5f6ff, 5px 5px 10px #075462;
+}
+
+.content-student-misc {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.6); /* Add some opacity to make text readable */
     padding: 20px;
@@ -288,6 +298,16 @@ body {
 }
 
 .info-section {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px; 
+}
+
+.info-section-misc {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: space-between;
@@ -311,9 +331,10 @@ body {
 }
 
 .action-buttons-misc{
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
     flex-wrap: wrap;
     z-index: 9;
 }
@@ -327,7 +348,7 @@ body {
 .download-cv img {
     width: 20px; /* Set the width of the heart image */
     height: auto; /* Maintain the aspect ratio */
-    vertical-align:auto; /* Align the image vertically with the text */
+    vertical-align:bottom; /* Align the image vertically with the text */
     margin-left: 2px; /* Add some spacing between the text and the image */
 }
 
@@ -602,7 +623,7 @@ footer img {
     }
 
     .content-write {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         /* font-family: 'Eczar', serif; */
         font-size: 1rem;
         text-align: center; /* Horizontal centering */
@@ -666,6 +687,16 @@ footer img {
 
     .research-interests {
         margin-left: 0; /* Reset margin for smaller screens */
+    }
+
+    .info-section-misc {
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 80px; 
     }
 
 }
