@@ -139,7 +139,7 @@ body {
 }
 
 /* Responsive design for mobile */
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .wrapper {
         flex-direction: column; /* Stack panes vertically on small screens */
     }
