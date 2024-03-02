@@ -11,19 +11,19 @@ function validate() {
   let errors = [];
 
   if (form_name.length < 3) {
-      errors.push("Please Enter a Valid Name");
+      errors.push("Please enter a Valid Name");
   }
   if (subject.length < 5) {
-      errors.push("Please Enter a Correct Subject");
+      errors.push("Please enter a correct Subject");
   }
   if (isNaN(phone) || phone.length <= 6) {
-      errors.push("Please Enter a Valid Phone Number");
+      errors.push("Please enter a valid Phone Number");
   }
   if (!/^\S+@\S+\.\S+$/.test(email)) {
-      errors.push("Please Enter a Valid Email");
+      errors.push("Please enter a valid Email");
   }
   if (message.length <= 20) {
-      errors.push("Please Enter More Than 20 Characters");
+      errors.push("Please enter a message of more than 20 characters");
   }
 
   if (errors.length > 0) {

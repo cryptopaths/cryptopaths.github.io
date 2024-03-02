@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"); /* Font Awesome for icons */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -295,6 +297,7 @@ body {
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
     margin-top: -100px;
+    margin-bottom: 100px;
 }
 
 .info-section {
@@ -461,6 +464,170 @@ footer img {
     margin-left: 2px; /* Add some spacing between the text and the image */
 }
 
+.content-student-email {
+    font-family: 'Marcellus', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.6); /* Add some opacity to make text readable */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    margin-top: -100px;
+}
+
+.left-pane {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+	flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left-pane .info-pane {
+    margin-bottom: 5px;
+	margin-top: 15px;
+	margin-left: 15px;
+    font-size: large;
+    display: flex;
+    align-self:flex-start;
+    color: #332902;
+}
+
+.left-pane .info-pane i {
+    margin-right: 10px;
+}
+
+.right-pane {
+    flex: 1;
+    padding: 25px;
+	justify-content: center;
+    z-index: 15;
+}
+
+.content-student-email h2 { 
+	text-align: center; 
+	margin-bottom: 20px; 
+	text-transform: uppercase; 
+	letter-spacing: 3px; 
+	color: #332902; 
+} 
+
+.content-student-email .input_field { 
+	margin-bottom: 10px; 
+} 
+
+.content-student-email .input_field input[type="text"],
+.content-student-email .input_field textarea { 
+    font-family: 'Noto Sans', sans-serif;
+	border: 1px solid #fff3f3; 
+	border-radius: 8px;
+	width: 100%; 
+	padding: 10px; 
+} 
+
+.content-student-email .input_field input[type="text"]:focus,
+.content-student-email .input_field textarea:focus {
+	border: 2px solid #89ea91;
+}
+
+.content-student-email textarea { 
+	resize: none; 
+	height: 80px; 
+} 
+
+/* .content-student-email .info-button{
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-self: space-around;
+} */
+
+.content-student-email .info-button {
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+.content-student-email .btn {
+    margin: 0 15%; /* Adjust the margin between buttons if needed */
+}
+
+.content-student-email .btn input[type="submit"] { 
+	border: 0px; 
+	margin-top: 10px; 
+	margin-right: 10px; 
+	padding: 10px 20px; 
+	text-align: center; 
+	width: 100%; 
+	background: #569a4d; 
+	color: #fcfbf7; 
+	text-transform: uppercase; 
+	letter-spacing: 5px; 
+	font-weight: bold; 
+	border-radius: 15px; 
+	cursor: pointer; 
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .5);
+    transition: all 0.5s ease-in-out;
+} 
+
+.content-student-email .btn input[type="submit"]:hover {
+    color: #224636;
+    
+    transform: scale(1.4);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .7);
+    background-color: #32f9a0; /* Increase opacity on hover */
+}
+.content-student-email .btn input[type="submit"]:active {
+    transform: scale(0.8); /* Optional: Add a smaller scale on click if desired */
+}
+
+.content-student-email .btn input[type="reset"] { 
+	border: 0px; 
+	margin-top: 10px; 
+	margin-right: 10px; 
+	right: 30px;
+	padding: 10px 20px;  
+	text-align: center; 
+	width: 100%; 
+	background: #dcffd8; 
+	color: #125f5f; 
+	text-transform: uppercase; 
+	letter-spacing: 5px; 
+	font-weight: bold; 
+	border-radius: 25px; 
+	cursor: pointer; 
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .5);
+    transition: all 0.5s ease-in-out;
+} 
+
+.content-student-email .btn input[type="reset"]:hover {
+    color: #224636;
+    
+    transform: scale(1.4);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .7);
+    background-color: #32f9a0; /* Increase opacity on hover */
+}
+.content-student-email .btn input[type="reset"]:active {
+    transform: scale(0.8); /* Optional: Add a smaller scale on click if desired */
+}
+
+#error_message { 
+    display: none;
+	margin-bottom: 20px; 
+	background: #fe8b8e; 
+	padding: 10px; 
+	text-align: center; 
+	font-size: 14px; 
+	transition: all 0.8s ease; 
+}
+
 /* FOR SMALLER DEVICES */
 
 @media only screen and (max-width: 1000px) {
@@ -476,10 +643,10 @@ footer img {
     }
     
     .background img {
-        content: url('MOB_NEW_1.jpg');
+        content: url('MOBILE_FRONT_VIEW_NEW.jpg');
         width: 100%;
         height: 100%;
-        object-fit: fill;
+        object-fit: cover;
         
     }
 
@@ -697,6 +864,39 @@ footer img {
         flex-wrap: wrap;
         align-items: center;
         margin-top: 80px; 
+    }
+
+    .content-student-email{
+        font-family: 'Marcellus', serif;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.6); /* Add some opacity to make text readable */
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+        margin-top: -110px; /* Adjust the margin as needed */
+    }
+
+    .left-pane{
+        margin-top: 75px;
+    }
+
+    .left-pane,
+    .right-pane {
+        width: 100%; /* Each pane takes full width on small screens */
+        z-index: 15;
+    }
+
+    .content-student-email .info-button {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center; /* Center the buttons horizontally */
+    }
+    
+    .content-student-email .btn {
+        margin: 0 15%; /* Adjust the margin between buttons if needed */
     }
 
 }
