@@ -487,6 +487,7 @@ footer img {
     position: relative;
     top: 10px;
     right: 10px;
+    
     text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #c5f6ff, 5px 5px 10px #075462;
 }
 
@@ -561,14 +562,6 @@ footer img {
 	height: 80px; 
 } 
 
-/* .content-student-email .info-button{
-	display: flex;
-	flex-direction: row-reverse;
-	flex-wrap: wrap;
-	align-content: flex-start;
-	justify-self: space-around;
-} */
-
 .content-student-email .info-button {
     font-family: 'Noto Sans', sans-serif;
     display: flex;
@@ -598,11 +591,10 @@ footer img {
 } 
 
 .content-student-email .btn input[type="submit"]:hover {
-    color: #224636;
-    
-    transform: scale(1.4);
+    color: #0c5118;
+    transform: scale(1.2);
     box-shadow: 15px 15px 15px rgba(0, 0, 0, .7);
-    background-color: #32f9a0; /* Increase opacity on hover */
+    background-color: #97ffa8; /* Increase opacity on hover */
 }
 .content-student-email .btn input[type="submit"]:active {
     transform: scale(0.8); /* Optional: Add a smaller scale on click if desired */
@@ -628,11 +620,10 @@ footer img {
 } 
 
 .content-student-email .btn input[type="reset"]:hover {
-    color: #224636;
-    
-    transform: scale(1.4);
+    color: #ffcfe9;
+    transform: scale(1.2);
     box-shadow: 15px 15px 15px rgba(0, 0, 0, .7);
-    background-color: #32f9a0; /* Increase opacity on hover */
+    background-color: #d62081; /* Increase opacity on hover */
 }
 .content-student-email .btn input[type="reset"]:active {
     transform: scale(0.8); /* Optional: Add a smaller scale on click if desired */
@@ -866,6 +857,18 @@ footer img {
         text-align: center; /* Center the text */
     }
 
+    .name-contact {
+        font-family: 'Protest Riot', sans-serif;
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: #0cdbff;
+        position: relative;
+        top: 10px;
+        right: 10px;
+        z-index: 5;
+        text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #c5f6ff, 5px 5px 10px #075462;
+    }
+
     .social-media {
         display: flex;
         justify-content: center;
@@ -893,19 +896,24 @@ footer img {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        background-color: rgba(255, 255, 255, 0.6); /* Add some opacity to make text readable */
-        padding: 5px;
-        border-radius: 10px;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+        /* background-color: rgba(255, 255, 255, 0.6); */
+        /* padding: 5px; */
+        /* border-radius: 10px; */
+        /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6); */
         margin-top: -110px; /* Adjust the margin as needed */
     }
 
     .left-pane{
-        margin-top: 75px;
+        margin-top: 105px;
+        border-radius: 10px 10px 0 0;
+        box-shadow: 10px 0 10px rgba(0, 0, 0, 0.6);
+        width: 100%; /* Each pane takes full width on small screens */
+        z-index: 15;
     }
 
-    .left-pane,
     .right-pane {
+        border-radius: 0 0 10px 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
         width: 100%; /* Each pane takes full width on small screens */
         z-index: 15;
     }
