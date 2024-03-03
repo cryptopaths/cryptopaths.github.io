@@ -251,9 +251,34 @@ body {
     font-family: 'Protest Riot', sans-serif;
     font-size: 3rem;
     margin-bottom: 10px;
-    color: #0cdbff;
-    text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #c5f6ff, 5px 5px 10px #075462;
+    /* color: #0cdbff; */
+    animation: color-change 10s infinite;
+    /* text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #c5f6ff, 5px 5px 10px #075462; */
 }
+
+@keyframes color-change {
+    0% { color: #001f3f; }
+    5% { color: #003366; }
+    10% { color: #004080; }
+    15% { color: #00509e; }
+    20% { color: #0066cc; }
+    25% { color: #0077b5; }
+    30% { color: #0088cc; }
+    35% { color: #0099e6; }
+    40% { color: #00aaff; }
+    45% { color: #33bbff; }
+    50% { color: #99ddff; }
+    55% { color: #b3e0ff; }
+    60% { color: #cce5ff; }
+    65% { color: #e6f0ff; }
+    70% { color: #f0f5ff; }
+    75% { color: #f5faff; }
+    80% { color: #f9fcff; }
+    85% { color: #fcfdff; }
+    90% { color: #ffffff; }
+    95% { color: #0088cc; }
+    100% { color: #004080; }
+  }
 
 .content-student {
     display: flex;
