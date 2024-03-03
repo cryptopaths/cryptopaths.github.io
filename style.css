@@ -479,6 +479,17 @@ footer img {
     margin-bottom: 25px;
 }
 
+.name-contact {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #0cdbff;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #c5f6ff, 5px 5px 10px #075462;
+}
+
 .left-pane {
     flex: 1;
     padding: 10px;
@@ -491,6 +502,7 @@ footer img {
     background-color: rgba(255, 255, 255, 0.6);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
     border-radius: 0 10px 10px 0;
+    position: relative;
 }
 
 .left-pane .info-pane {
