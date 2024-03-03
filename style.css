@@ -297,7 +297,7 @@ body {
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
     margin-top: -100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .info-section {
@@ -471,11 +471,12 @@ footer img {
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
-    background-color: rgba(255, 255, 255, 0.6); /* Add some opacity to make text readable */
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
-    margin-top: -100px;
+    /* background-color: rgba(255, 255, 255, 0.6);  */
+    /* padding: 10px; */
+    /* border-radius: 10px; */
+    /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6); */
+    margin-top: -150px;
+    margin-bottom: 25px;
 }
 
 .left-pane {
@@ -487,11 +488,14 @@ footer img {
     align-items: flex-start;
 	justify-content: space-between;
 	align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 0 10px 10px 0;
 }
 
 .left-pane .info-pane {
     margin-bottom: 5px;
-	margin-top: 15px;
+	margin-top: 10px;
 	margin-left: 15px;
     font-size: large;
     display: flex;
@@ -504,6 +508,10 @@ footer img {
 }
 
 .right-pane {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px 0 0 10px;
     flex: 1;
     padding: 25px;
 	justify-content: center;
@@ -525,7 +533,7 @@ footer img {
 .content-student-email .input_field input[type="text"],
 .content-student-email .input_field textarea { 
     font-family: 'Noto Sans', sans-serif;
-	border: 1px solid #fff3f3; 
+	border: 1px solid #424242; 
 	border-radius: 8px;
 	width: 100%; 
 	padding: 10px; 
@@ -533,7 +541,7 @@ footer img {
 
 .content-student-email .input_field input[type="text"]:focus,
 .content-student-email .input_field textarea:focus {
-	border: 2px solid #89ea91;
+	border: 2px solid #63ff70;
 }
 
 .content-student-email textarea { 
@@ -620,11 +628,12 @@ footer img {
 
 #error_message { 
     display: none;
-	margin-bottom: 20px; 
-	background: #fe8b8e; 
+	margin-bottom: 15px; 
+	background: #fe8b8e;
+    border: 1px solid #ff2e2e;  
 	padding: 10px; 
 	text-align: center; 
-	font-size: 14px; 
+	font-size: 15px; 
 	transition: all 0.8s ease; 
 }
 
