@@ -49,6 +49,18 @@ body {
 	text-shadow: 2px 2px 10px #000000, 2px 2px 10px #0000FF;
 }
 
+.start-student {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 3.6rem;
+    margin-top: 20px;
+    background-image: linear-gradient(180deg, #FFDDE1, #EE9CA7, #38EF7D, #89f7fe, #30cfd0, #764ba2 #330867);
+    -webkit-background-clip: text; /* For Webkit/Blink browsers */
+    color: transparent; /* Set text color to transparent */
+    background-clip: text; /* Standard property for modern browsers */
+    -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
+    text-stroke: 0.1px #000; /* Standard property for modern browsers */
+}
+
 .logo-container {
     position: fixed;
     top: 30px;
@@ -161,10 +173,15 @@ body {
 
 .about-us {
     font-family: 'Protest Riot', sans-serif;
-	color: #3b3b3b;
 	text-align: center;
-    font-size: 3.5rem;
+    font-size: 3.6rem;
 	margin-bottom: 20px;
+    background-image: linear-gradient(45deg, #ED1E79, #D4145A, #FBB03B, #FCEE21);
+    -webkit-background-clip: text; /* For Webkit/Blink browsers */
+    color: transparent; /* Set text color to transparent */
+    background-clip: text; /* Standard property for modern browsers */
+    -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
+    text-stroke: 0.1px #000; /* Standard property for modern browsers */
 }
 
 .content-write {
@@ -243,42 +260,26 @@ body {
     font-family: 'Protest Riot', sans-serif;
     font-size: 3rem;
     margin-bottom: 10px;
-    color: #ff0c79;
-    text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #fcb1d3, 5px 5px 10px #8d0a45;
+    background-image: linear-gradient(180deg, #FF9A8B, #FF99AC, #FF6A88, #FF5ACD, #ED1E79, #662D8C);
+    -webkit-background-clip: text; /* For Webkit/Blink browsers */
+    color: transparent; /* Set text color to transparent */
+    background-clip: text; /* Standard property for modern browsers */
+    -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
+    text-stroke: 0.1px #000; /* Standard property for modern browsers */
 }
+
 
 .name-b {
     font-family: 'Protest Riot', sans-serif;
     font-size: 3rem;
     margin-bottom: 10px;
-    /* color: #0cdbff; */
-    animation: color-change 10s infinite;
-    /* text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #c5f6ff, 5px 5px 10px #075462; */
+    background-image: linear-gradient(180deg, #80D0C7, #0093E9, #3e43cc, #d11eed);
+    -webkit-background-clip: text; /* For Webkit/Blink browsers */
+    color: transparent; /* Set text color to transparent */
+    background-clip: text; /* Standard property for modern browsers */
+    -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
+    text-stroke: 0.1px #000; /* Standard property for modern browsers */
 }
-
-@keyframes color-change {
-    0% { color: #001f3f; }
-    5% { color: #003366; }
-    10% { color: #004080; }
-    15% { color: #00509e; }
-    20% { color: #0066cc; }
-    25% { color: #0077b5; }
-    30% { color: #0088cc; }
-    35% { color: #0099e6; }
-    40% { color: #00aaff; }
-    45% { color: #33bbff; }
-    50% { color: #99ddff; }
-    55% { color: #b3e0ff; }
-    60% { color: #cce5ff; }
-    65% { color: #e6f0ff; }
-    70% { color: #f0f5ff; }
-    75% { color: #f5faff; }
-    80% { color: #f9fcff; }
-    85% { color: #fcfdff; }
-    90% { color: #ffffff; }
-    95% { color: #0088cc; }
-    100% { color: #004080; }
-  }
 
 .content-student {
     display: flex;
@@ -308,10 +309,14 @@ body {
 
 .name-misc {
     font-family: 'Protest Riot', sans-serif;
-    font-size: 3rem;
+    font-size: 3.6rem;
     margin-bottom: 10px;
-    color: #ff3041;
-    text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #c5f6ff, 5px 5px 10px #075462;
+    background-image: linear-gradient(180deg, #FEE140, #FA709A);
+    -webkit-background-clip: text; /* For Webkit/Blink browsers */
+    color: transparent; /* Set text color to transparent */
+    background-clip: text; /* Standard property for modern browsers */
+    -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
+    text-stroke: 0.1px #000; /* Standard property for modern browsers */
 }
 
 .content-student-misc {
@@ -513,14 +518,17 @@ footer img {
 
 .name-contact {
     font-family: 'Protest Riot', sans-serif;
-    font-size: 3rem;
+    font-size: 3.6rem;
     margin-bottom: 10px;
-    color: #0cdbff;
     position: relative;
     top: 10px;
     right: 10px;
-    
-    text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #c5f6ff, 5px 5px 10px #075462;
+    background-image: linear-gradient(180deg, #d4fc79, #96e6a1, #84fab0, #8fd3f4, #a1c4fd, #fbc2eb);
+    -webkit-background-clip: text; /* For Webkit/Blink browsers */
+    color: transparent; /* Set text color to transparent */
+    background-clip: text; /* Standard property for modern browsers */
+    -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
+    text-stroke: 0.1px #000; /* Standard property for modern browsers */
 }
 
 .left-pane {
@@ -533,7 +541,7 @@ footer img {
 	justify-content: space-between;
 	align-items: center;
     background-color: rgba(255, 255, 255, 0.6);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
     border-radius: 0 10px 10px 0;
     position: relative;
 }
@@ -553,10 +561,10 @@ footer img {
 }
 
 .right-pane {
-    background-image: linear-gradient(45deg, rgba(71, 16, 105, 0.7), rgba(20, 82, 119, 0.7),rgba(48, 197, 210, 0.7),rgba(131, 208, 203, 0.7));
+    background-image: linear-gradient(45deg, rgba(71, 16, 105, 1), rgba(20, 82, 119, 1),rgba(48, 197, 210, 1),rgba(131, 208, 203, 1));
     /* background-image: linear-gradient(45deg, rgba(173, 253, 162, 0.7), rgba(240, 249, 167, 0.7)); */
     /* background-image: linear-gradient(45deg, #2278fb,#11d3f3,#6bdfdb,#1ed7b5,#51c26f,#adfda2,#f2e901,#f0f9a7); */
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
     border-radius: 10px 0 0 10px;
     flex: 1;
     padding: 25px;
@@ -706,7 +714,7 @@ footer img {
     }
 
     .start-title {
-        font-size: 2.0rem;
+        font-size: 2.3rem;
         margin-top: 20px;
         color: #ffffff;
         text-shadow: 2px 2px 10px #000000, 2px 2px 10px #0000FF;
@@ -718,6 +726,14 @@ footer img {
         color: #ffffff;
         text-shadow: 2px 2px 10px #000000, 2px 2px 10px #0000FF;
         text-align: center;
+    }
+
+    .start-student {
+        font-family: 'Protest Riot', sans-serif;
+        font-size: 3rem;
+        margin-top: 20px;
+        color: #ffffff;
+        text-shadow: 2px 2px 10px #000000, 2px 2px 10px #0000FF;
     }
 
     .students {
@@ -830,9 +846,8 @@ footer img {
 
     .about-us {
         font-family: 'Protest Riot', sans-serif;
-        color: #3b3b3b;
         text-align: center;
-        font-size: 1.8rem;
+        font-size: 3rem;
         margin-bottom: 20px;
     }
 
@@ -876,32 +891,48 @@ footer img {
 
     .name {
         font-family: 'Protest Riot', sans-serif;
-        font-size: 1.8rem;
-        margin-bottom: 20px; /* Adjust the margin as needed */
-        color: #ff0c79;
-        text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #fcb1d3, 5px 5px 10px #8d0a45;
         text-align: center; /* Center the text */
+        font-size: 2.0rem;
+        margin-bottom: 20px;
+        background-image: linear-gradient(180deg, #FF9A8B, #FF99AC, #FF6A88, #FF5ACD, #ED1E79, #662D8C);
+        -webkit-background-clip: text; /* For Webkit/Blink browsers */
+        color: transparent; /* Set text color to transparent */
+        background-clip: text; /* Standard property for modern browsers */
+        -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
+        text-stroke: 0.1px #000; /* Standard property for modern browsers */
     }
-
+    
     .name-b {
         font-family: 'Protest Riot', sans-serif;
-        font-size: 1.8rem;
-        margin-bottom: 20px; /* Adjust the margin as needed */
-        color: #0cdbff;
-        text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #c5f6ff, 5px 5px 10px #075462;
         text-align: center; /* Center the text */
+        font-size: 2.0rem;
+        margin-bottom: 20px;
+        background-image: linear-gradient(180deg, #80D0C7, #0093E9, #3e43cc, #d11eed);
+        -webkit-background-clip: text; /* For Webkit/Blink browsers */
+        color: transparent; /* Set text color to transparent */
+        background-clip: text; /* Standard property for modern browsers */
+        -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
+        text-stroke: 0.1px #000; /* Standard property for modern browsers */
+    }
+
+    .name-misc {
+        font-size: 3rem;
     }
 
     .name-contact {
         font-family: 'Protest Riot', sans-serif;
         font-size: 3rem;
         margin-bottom: 20px;
-        color: #0cdbff;
         position: relative;
         top: 10px;
         right: 10px;
         z-index: 5;
-        text-shadow: 5px 5px 10px rgb(0, 0, 0), 2px 2px 10px #c5f6ff, 5px 5px 10px #075462;
+        background-image: linear-gradient(180deg, #d4fc79, #96e6a1, #84fab0, #8fd3f4, #a1c4fd, #fbc2eb);
+        -webkit-background-clip: text; /* For Webkit/Blink browsers */
+        color: transparent; /* Set text color to transparent */
+        background-clip: text; /* Standard property for modern browsers */
+        -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
+        text-stroke: 0.1px #000; /* Standard property for modern browsers */
     }
 
     .social-media {
