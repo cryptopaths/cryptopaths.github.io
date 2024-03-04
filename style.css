@@ -688,11 +688,12 @@ footer img {
     }
     
     .background img {
-        content: url('MOBILE_FRONT_VIEW_NEW.jpg');
+        content: url('SKY_UND_1.jpg');
         width: 100%;
         height: 100%;
         object-fit: cover;
-        
+        overflow: hidden;
+        object-position: top;
     }
 
     .start-page-top {
