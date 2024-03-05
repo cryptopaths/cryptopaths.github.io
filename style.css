@@ -58,8 +58,8 @@ body {
     color: transparent; /* Set text color to transparent */
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
-    stroke: 0.1px #000; /* Standard property for modern browsers */
-    text-outline: 0.1px solid #000;
+    /* stroke: 0.1px #000;  */
+    /* text-outline: 0.1px solid #000; */
 }
 
 .logo-container {
@@ -181,9 +181,9 @@ body {
     -webkit-background-clip: text; /* For Webkit/Blink browsers */
     color: transparent; /* Set text color to transparent */
     background-clip: text; /* Standard property for modern browsers */
-    -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
-    stroke: 0.1px #000; /* Standard property for modern browsers */
-    text-outline: 0.1px solid #000;
+    -webkit-text-stroke: 0.1px #000; 
+    /* stroke: 0.1px #000;  */
+    /* text-outline: 0.1px solid #000; */
 }
 
 .content-write {
@@ -267,8 +267,8 @@ body {
     color: transparent; /* Set text color to transparent */
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
-    stroke: 0.1px #000; /* Standard property for modern browsers */
-    text-outline: 0.1px solid #000;
+    /* stroke: 0.1px #000;  */
+    /* text-outline: 0.1px solid #000; */
 }
 
 
@@ -281,8 +281,8 @@ body {
     color: transparent; /* Set text color to transparent */
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
-    stroke: 0.1px #000; /* Standard property for modern browsers */
-    text-outline: 0.1px solid #000;
+    /* stroke: 0.1px #000; */
+    /* text-outline: 0.1px solid #000; */
 }
 
 .content-student {
@@ -320,8 +320,8 @@ body {
     color: transparent; /* Set text color to transparent */
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
-    stroke: 0.1px #000; /* Standard property for modern browsers */
-    text-outline: 0.1px solid #000;
+    /* stroke: 0.1px #000; */
+    /* text-outline: 0.1px solid #000; */
 }
 
 .content-student-misc {
@@ -533,8 +533,8 @@ footer img {
     color: transparent; /* Set text color to transparent */
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
-    stroke: 0.1px #000; /* Standard property for modern browsers */
-    text-outline: 0.1px solid #000;
+    /* stroke: 0.1px #000; */
+    /* text-outline: 0.1px solid #000; */
 }
 
 .left-pane {
@@ -702,12 +702,12 @@ footer img {
     }
     
     .background img {
-        content: url('SKY_UND_1.jpg');
+        content: url('SKY_TOP.jpg');
         width: 100%;
         height: 100%;
         object-fit: cover;
         overflow: hidden;
-        object-position: top;
+        object-position: bottom;
     }
 
     .start-page-top {
@@ -743,8 +743,8 @@ footer img {
         color: transparent; /* Set text color to transparent */
         background-clip: text; /* Standard property for modern browsers */
         -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
-        stroke: 0.1px #000; /* Standard property for modern browsers */
-        text-outline: 0.1px solid #000;
+        /* stroke: 0.1px #000; */
+        /* text-outline: 0.1px solid #000; */
     }
 
     .students {
@@ -910,8 +910,8 @@ footer img {
         color: transparent; /* Set text color to transparent */
         background-clip: text; /* Standard property for modern browsers */
         -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
-        stroke: 0.1px #000; /* Standard property for modern browsers */
-        text-outline: 0.1px solid #000;
+        /* stroke: 0.1px #000; */
+        /* text-outline: 0.1px solid #000; */
     }
     
     .name-b {
@@ -924,8 +924,8 @@ footer img {
         color: transparent; /* Set text color to transparent */
         background-clip: text; /* Standard property for modern browsers */
         -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
-        stroke: 0.1px #000; /* Standard property for modern browsers */
-        text-outline: 0.1px solid #000;
+        /* stroke: 0.1px #000;  */
+        /* text-outline: 0.1px solid #000; */
     }
 
     .name-misc {
@@ -945,8 +945,8 @@ footer img {
         color: transparent; /* Set text color to transparent */
         background-clip: text; /* Standard property for modern browsers */
         -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
-        stroke: 0.1px #000; /* Standard property for modern browsers */
-        text-outline: 0.1px solid #000;
+        /* stroke: 0.1px #000;  */
+        /* text-outline: 0.1px solid #000; */
     }
 
     .social-media {
