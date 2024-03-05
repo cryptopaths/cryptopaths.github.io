@@ -36,7 +36,6 @@ body {
 }
 
 .start-title {
-    /* font-family: 'Marcellus', serif; */
     font-size: 4.25rem;
     margin-top: 20px;
     color: #ffffff;
@@ -58,8 +57,6 @@ body {
     color: transparent; /* Set text color to transparent */
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
-    /* stroke: 0.1px #000;  */
-    /* text-outline: 0.1px solid #000; */
 }
 
 .logo-container {
@@ -121,7 +118,6 @@ body {
     font-weight: bold;
     font-size: 1rem;
     background-image: linear-gradient(to right, #00b09b, #96c93d);
-    /* background-color: #5adbb5; */
     color: #000000;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     padding: 8px 12px;
@@ -132,7 +128,6 @@ body {
 
 .start-page-button button:hover {
     background-image: linear-gradient(to left, #00b09b, #96c93d);
-    /* background-color: #216cbc;  */
     color: #22403f;
     transition: all 0.3s ease-in-out;
     transform: translateY(-5px) scale(1.1);
@@ -144,7 +139,6 @@ body {
     font-weight: bold;
     font-size: 1rem;
     background-image: linear-gradient(to left,#f884af,#fc4254);
-    /* background-color: #5adbb5; */
     color: #000000;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     padding: 8px 12px;
@@ -160,8 +154,6 @@ body {
     transform: translateY(5px) scale(1.1);
     box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
 }
-
-/* Add a Resize in negative whebn clicked Just like Download CV */
 
 .content {
     background-color: rgba(255, 255, 255, 0.8); /* Add some opacity to make text readable */
@@ -182,13 +174,10 @@ body {
     color: transparent; /* Set text color to transparent */
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; 
-    /* stroke: 0.1px #000;  */
-    /* text-outline: 0.1px solid #000; */
 }
 
 .content-write {
     font-family: 'Open Sans', sans-serif;
-    /* font-family: 'Eczar', serif; */
     font-size: 1.2rem;
 }
 
@@ -206,7 +195,6 @@ body {
 
 .students {
     font-family: 'Protest Riot', sans-serif;
-    /* font-family: 'Crimson Pro', serif; */
     color: #ffffff;
     text-align: center;
     position: relative;
@@ -267,8 +255,6 @@ body {
     color: transparent; /* Set text color to transparent */
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
-    /* stroke: 0.1px #000;  */
-    /* text-outline: 0.1px solid #000; */
 }
 
 
@@ -281,8 +267,6 @@ body {
     color: transparent; /* Set text color to transparent */
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
-    /* stroke: 0.1px #000; */
-    /* text-outline: 0.1px solid #000; */
 }
 
 .content-student {
@@ -320,8 +304,6 @@ body {
     color: transparent; /* Set text color to transparent */
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
-    /* stroke: 0.1px #000; */
-    /* text-outline: 0.1px solid #000; */
 }
 
 .content-student-misc {
@@ -335,7 +317,6 @@ body {
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
     margin-top: -100px;
-    /* margin-bottom: 50px; */
 }
 
 .info-section {
@@ -398,7 +379,6 @@ body {
     font-family: 'Marcellus', serif;
     display: inline-block;
     background-image: linear-gradient(45deg, #471069,#0b3866, #183182, #210cae,#2472fc);
-    /* background-image: linear-gradient(to right,#000328,#091970,#00458e); */
     background-color: #282828;
     color: #ffffff;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
@@ -413,11 +393,8 @@ body {
 .download-button:hover {
     background-image: linear-gradient(to left,#7ef29d,#0f68a9);
     color: #152938;
-    /* color: #224636; */
-    /* transition: all 0.3s ease-in-out; */
     transform: scale(1.1);
     box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
-    /* background-color: #32f9a0; */
 }
 
 .download-button:active {
@@ -513,10 +490,6 @@ footer img {
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
-    /* background-color: rgba(255, 255, 255, 0.6);  */
-    /* padding: 10px; */
-    /* border-radius: 10px; */
-    /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6); */
     margin-top: -150px;
     margin-bottom: 25px;
 }
@@ -533,8 +506,7 @@ footer img {
     color: transparent; /* Set text color to transparent */
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
-    /* stroke: 0.1px #000; */
-    /* text-outline: 0.1px solid #000; */
+    z-index: 25;
 }
 
 .left-pane {
@@ -550,6 +522,7 @@ footer img {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
     border-radius: 0 10px 10px 0;
     position: relative;
+    z-index: 15;
 }
 
 .left-pane .info-pane {
@@ -568,8 +541,6 @@ footer img {
 
 .right-pane {
     background-image: linear-gradient(135deg, rgba(71, 16, 105, 1), rgba(20, 82, 119, 1),rgba(48, 197, 210, 1),rgba(131, 208, 203, 1));
-    /* background-image: linear-gradient(45deg, rgba(173, 253, 162, 0.7), rgba(240, 249, 167, 0.7)); */
-    /* background-image: linear-gradient(45deg, #2278fb,#11d3f3,#6bdfdb,#1ed7b5,#51c26f,#adfda2,#f2e901,#f0f9a7); */
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
     border-radius: 10px 0 0 10px;
     flex: 1;
@@ -742,9 +713,7 @@ footer img {
         -webkit-background-clip: text; /* For Webkit/Blink browsers */
         color: transparent; /* Set text color to transparent */
         background-clip: text; /* Standard property for modern browsers */
-        -webkit-text-stroke: 1px #000; /* Text border with a 2px width and black color */
-        /* stroke: 0.1px #000; */
-        /* text-outline: 0.1px solid #000; */
+        -webkit-text-stroke: 1.2px #000; /* Text border with a 2px width and black color */
     }
 
     .students {
@@ -808,7 +777,6 @@ footer img {
         font-weight: bold;
         font-size: 0.85rem;
         background-image: linear-gradient(to right, #00b09b, #96c93d);
-        /* background-color: #5adbb5; */
         color: #000000;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
         padding: 8px 12px;
@@ -847,7 +815,6 @@ footer img {
     }
 
     .content {
-        /* font-family: 'Poppins', sans-serif; */
         background-color: rgba(255, 255, 255, 0.8); /* Add some opacity to make text readable */
         padding: 10px;
         border-radius: 36px;
@@ -860,11 +827,15 @@ footer img {
         text-align: center;
         font-size: 3rem;
         margin-bottom: 20px;
+        background-image: linear-gradient(45deg, #ED1E79, #D4145A, #FBB03B, #FCEE21);
+        -webkit-background-clip: text; /* For Webkit/Blink browsers */
+        color: transparent; /* Set text color to transparent */
+        background-clip: text; /* Standard property for modern browsers */
+        -webkit-text-stroke: 1.2px #000; 
     }
 
     .content-write {
         font-family: 'Open Sans', sans-serif;
-        /* font-family: 'Eczar', serif; */
         font-size: 1rem;
         text-align: center; /* Horizontal centering */
     }
@@ -910,8 +881,6 @@ footer img {
         color: transparent; /* Set text color to transparent */
         background-clip: text; /* Standard property for modern browsers */
         -webkit-text-stroke: 1px #000; /* Text border with a 2px width and black color */
-        /* stroke: 0.1px #000; */
-        /* text-outline: 0.1px solid #000; */
     }
     
     .name-b {
@@ -924,12 +893,15 @@ footer img {
         color: transparent; /* Set text color to transparent */
         background-clip: text; /* Standard property for modern browsers */
         -webkit-text-stroke: 1px #000; /* Text border with a 2px width and black color */
-        /* stroke: 0.1px #000;  */
-        /* text-outline: 0.1px solid #000; */
     }
 
     .name-misc {
         font-size: 3rem;
+        background-image: linear-gradient(180deg, #FEE140, #FA709A);
+        -webkit-background-clip: text; /* For Webkit/Blink browsers */
+        color: transparent; /* Set text color to transparent */
+        background-clip: text; /* Standard property for modern browsers */
+        -webkit-text-stroke: 1.2px #000; /* Text border with a 2px width and black color */
     }
 
     .name-contact {
@@ -944,9 +916,8 @@ footer img {
         -webkit-background-clip: text; /* For Webkit/Blink browsers */
         color: transparent; /* Set text color to transparent */
         background-clip: text; /* Standard property for modern browsers */
-        -webkit-text-stroke: 1px #000; /* Text border with a 2px width and black color */
-        /* stroke: 0.1px #000;  */
-        /* text-outline: 0.1px solid #000; */
+        -webkit-text-stroke: 1.2px #000; /* Text border with a 2px width and black color */
+        z-index: 25;
     }
 
     .social-media {
