@@ -679,6 +679,7 @@ footer img {
         object-fit: cover;
         overflow: hidden;
         object-position: bottom;
+        background-attachment: fixed;
     }
 
     .start-page-top {
