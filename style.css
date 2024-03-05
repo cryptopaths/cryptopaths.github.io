@@ -59,6 +59,7 @@ body {
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
     text-stroke: 0.1px #000; /* Standard property for modern browsers */
+    text-outline: 0.1px solid #000;
 }
 
 .logo-container {
@@ -182,6 +183,7 @@ body {
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
     text-stroke: 0.1px #000; /* Standard property for modern browsers */
+    text-outline: 0.1px solid #000;
 }
 
 .content-write {
@@ -266,6 +268,7 @@ body {
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
     text-stroke: 0.1px #000; /* Standard property for modern browsers */
+    text-outline: 0.1px solid #000;
 }
 
 
@@ -279,6 +282,7 @@ body {
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
     text-stroke: 0.1px #000; /* Standard property for modern browsers */
+    text-outline: 0.1px solid #000;
 }
 
 .content-student {
@@ -317,6 +321,7 @@ body {
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
     text-stroke: 0.1px #000; /* Standard property for modern browsers */
+    text-outline: 0.1px solid #000;
 }
 
 .content-student-misc {
@@ -529,6 +534,7 @@ footer img {
     background-clip: text; /* Standard property for modern browsers */
     -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
     text-stroke: 0.1px #000; /* Standard property for modern browsers */
+    text-outline: 0.1px solid #000;
 }
 
 .left-pane {
@@ -738,6 +744,7 @@ footer img {
         background-clip: text; /* Standard property for modern browsers */
         -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
         text-stroke: 0.1px #000; /* Standard property for modern browsers */
+        text-outline: 0.1px solid #000;
     }
 
     .students {
@@ -904,6 +911,7 @@ footer img {
         background-clip: text; /* Standard property for modern browsers */
         -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
         text-stroke: 0.1px #000; /* Standard property for modern browsers */
+        text-outline: 0.1px solid #000;
     }
     
     .name-b {
@@ -917,6 +925,7 @@ footer img {
         background-clip: text; /* Standard property for modern browsers */
         -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
         text-stroke: 0.1px #000; /* Standard property for modern browsers */
+        text-outline: 0.1px solid #000;
     }
 
     .name-misc {
@@ -937,6 +946,7 @@ footer img {
         background-clip: text; /* Standard property for modern browsers */
         -webkit-text-stroke: 0.1px #000; /* Text border with a 2px width and black color */
         text-stroke: 0.1px #000; /* Standard property for modern browsers */
+        text-outline: 0.1px solid #000;
     }
 
     .social-media {
