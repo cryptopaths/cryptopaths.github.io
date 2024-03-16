@@ -91,10 +91,15 @@ body {
 .bottom-arrow img {
     width: 4.6rem;
     height: 4.6rem;
+    transition: transform 0.5s ease;
+}
+
+.bottom-arrow:hover img {
+    transform: rotate(360deg); /* Rotate the image 360 degrees on hover */
 }
 
 .bottom-arrow:hover {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
     background-image: linear-gradient(to left,#84ffc9,#aab2ff,#eca0ff);
 }
@@ -351,7 +356,7 @@ body {
     flex-direction: column;
     justify-content:flex-end;
     flex-wrap: wrap;
-    z-index: 9;
+    z-index: 40;
 }
 
 .action-buttons-misc{
@@ -360,7 +365,7 @@ body {
     flex-direction: row;
     justify-content:space-around;
     flex-wrap: wrap;
-    z-index: 9;
+    z-index: 40;
 }
 
 .download-cv {
@@ -434,7 +439,7 @@ body {
 .social-media a img {
     width: 23px;
     height: 23px;
-    transition: transform 0.6s ease-in-out; 
+    transition: transform 0.75s ease-in-out; 
 }
 
 .social-media a:hover img {
@@ -772,10 +777,15 @@ footer img {
     .bottom-arrow img {
         width: 3.4rem;
         height: 3.4rem;
+        transition: transform 0.5s ease;
+    }
+
+    .bottom-arrow:hover img {
+        transform: rotate(360deg); /* Rotate the image 360 degrees on hover */
     }
     
     .bottom-arrow:hover {
-        transition: all 0.3s ease-in-out;
+        transition: all 0.5s ease-in-out;
         box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
         background-image: linear-gradient(to left,#84ffc9,#aab2ff,#eca0ff);
     }
