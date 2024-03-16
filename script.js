@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const studentButton = document.getElementById('scroll-to-student');
     const aboutUsContainer = document.querySelector('.about-us');
     const studentSection = document.querySelector('.students');
+    const contact_button = document.getElementById('scroll-to-contact-us');
+    const contactHeader = document.querySelector('.name-contact');
 
     // Scroll to the next section when the down arrow is clicked
     downArrow.addEventListener('click', function () {
@@ -12,6 +14,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // Scroll to the student section when the student button is clicked
     studentButton.addEventListener('click', function () {
         studentSection.scrollIntoView({ behavior: 'smooth' });
+    });
+
+    contact_button.addEventListener('click', function() {
+        contactHeader.scrollIntoView({ behavior: 'smooth' });
     });
 
     // Form submission logic
