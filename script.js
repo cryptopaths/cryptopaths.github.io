@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     submitButton.addEventListener('click', function (e) {
         e.preventDefault();
-        console.log("Form submitted Successfully");
+        console.log("Form submitted Successfully !!! ARGHA123");
         validate(); // Call the validate function before sending the email
     });
 
