@@ -130,12 +130,12 @@ body {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .start-page-button button:hover {
     background-image: linear-gradient(to left, #00b09b, #96c93d);
-    color: #22403f;
-    transition: all 0.3s ease-in-out;
+    color: #003530;
     transform: translateY(-5px) scale(1.1);
     box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
 }
@@ -152,12 +152,12 @@ body {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .start-page-mail button:hover {
     background-image: linear-gradient(to left,#fc4254,#f884af);
     color: #5e1124;
-    transition: all 0.3s ease-in-out;
     transform: translateY(5px) scale(1.1);
     box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
 }
@@ -602,13 +602,13 @@ footer img {
     overflow: hidden;
 	margin-top: 10px; 
 	margin-right: 10px; 
-	padding: 10px 15px; 
+	padding: 5.8px 10px; 
 	text-align: center; 
 	width: 100%; 
     background-image: linear-gradient(45deg, #a7ddff, #28acff);
 	color: #141354; 
 	text-transform: uppercase; 
-	letter-spacing: 5px; 
+	letter-spacing: 2px; 
 	font-weight: bolder; 
 	border-radius: 10px; 
 	cursor: pointer; 
@@ -616,14 +616,6 @@ footer img {
     transition: all 0.5s ease-in-out;
 
 } 
-
-.btn label {
-    padding: 10px 15px; /* Adjust padding as needed */
-    display: inline-block; /* Make the label behave like a block element */
-    text-align: center; /* Center the text horizontally */
-    width: 100%; /* Ensure the label takes up the full width of the button */
-    font-weight: bolder;
-}
 
 .content-student-email .btn input[type="submit"]:hover {
     background-image: linear-gradient(135deg, #28acff, #a7ddff);
@@ -641,13 +633,13 @@ footer img {
     margin-top: 10px; 
 	margin-right: 10px; 
 	right: 30px;
-	padding: 10px 15px;  
+	padding: 5.8px 10px;  
 	text-align: center; 
 	width: 100%; 
     background-image: linear-gradient(45deg, #aaffda, #18fc99);
 	color: #095132; 
 	text-transform: uppercase; 
-	letter-spacing: 5px; 
+	letter-spacing: 2px; 
 	font-weight: bolder; 
 	border-radius: 10px; 
 	cursor: pointer; 
@@ -807,12 +799,12 @@ footer img {
         border: none;
         border-radius: 10px;
         cursor: pointer;
+        transition: all 0.3s ease-in-out;
     }
 
     .start-page-button button:hover {
         background-image: linear-gradient(to left, #00b09b, #96c93d);
-        color: #22403f;
-        transition: all 0.3s ease-in-out;
+        color: #003530;
         transform: translateY(-5px) scale(1.1);
         box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
     }
@@ -828,12 +820,12 @@ footer img {
         border: none;
         border-radius: 10px;
         cursor: pointer;
+        transition: all 0.3s ease-in-out;
     }
 
     .start-page-mail button:hover {
         background-image: linear-gradient(to left,#fc4254,#f884af);
         color: #5e1124;
-        transition: all 0.3s ease-in-out;
         transform: translateY(5px) scale(1.1);
         box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
     }
