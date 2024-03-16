@@ -116,13 +116,14 @@ body {
 .start-page-button button {
     font-family: 'Marcellus', serif;
     font-weight: bold;
+    letter-spacing: 1px; 
     font-size: 1rem;
     background-image: linear-gradient(to right, #00b09b, #96c93d);
     color: #000000;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     padding: 8px 12px;
     border: none;
-    border-radius: 36px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -136,6 +137,7 @@ body {
 
 .start-page-mail button {
     font-family: 'Marcellus', serif;
+    letter-spacing: 1px; 
     font-weight: bold;
     font-size: 1rem;
     background-image: linear-gradient(to left,#f884af,#fc4254);
@@ -143,7 +145,7 @@ body {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     padding: 8px 12px;
     border: none;
-    border-radius: 36px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -591,26 +593,36 @@ footer img {
 }
 
 .content-student-email .btn input[type="submit"] { 
-	border: 0px; 
+    border: 2px solid #141354; /* Add blue border */
+    overflow: hidden;
 	margin-top: 10px; 
 	margin-right: 10px; 
-	padding: 10px 20px; 
+	padding: 10px 15px; 
 	text-align: center; 
 	width: 100%; 
-    background-image: linear-gradient(180deg, #fcb0f3,#3d05dd);
-	color: #2f0c15; 
+    background-image: linear-gradient(45deg, #a7ddff, #28acff);
+	color: #141354; 
 	text-transform: uppercase; 
 	letter-spacing: 5px; 
-	font-weight: bold; 
-	border-radius: 15px; 
+	font-weight: bolder; 
+	border-radius: 10px; 
 	cursor: pointer; 
     box-shadow: 15px 15px 15px rgba(0, 0, 0, .5);
     transition: all 0.5s ease-in-out;
+
 } 
 
+.btn label {
+    padding: 10px 15px; /* Adjust padding as needed */
+    display: inline-block; /* Make the label behave like a block element */
+    text-align: center; /* Center the text horizontally */
+    width: 100%; /* Ensure the label takes up the full width of the button */
+    font-weight: bolder;
+}
+
 .content-student-email .btn input[type="submit"]:hover {
-    background-image: linear-gradient(180deg, #3d05dd,#fcb0f3);
-    color: #0e0036;
+    background-image: linear-gradient(135deg, #28acff, #a7ddff);
+    color: #141354;
     transform: scale(1.2);
     box-shadow: 15px 15px 15px rgba(0, 0, 0, .7);
 }
@@ -619,27 +631,28 @@ footer img {
 }
 
 .content-student-email .btn input[type="reset"] { 
-	border: 0px; 
-	margin-top: 10px; 
+	border: 2px solid #095132; /* Add blue border */
+    overflow: hidden;
+    margin-top: 10px; 
 	margin-right: 10px; 
 	right: 30px;
-	padding: 10px 20px;  
+	padding: 10px 15px;  
 	text-align: center; 
 	width: 100%; 
-    background-image: linear-gradient(180deg, #f6f6f6, #71c3f7, #2c6cbc);
-	color: #201e8d; 
+    background-image: linear-gradient(45deg, #aaffda, #18fc99);
+	color: #095132; 
 	text-transform: uppercase; 
 	letter-spacing: 5px; 
-	font-weight: bold; 
-	border-radius: 25px; 
+	font-weight: bolder; 
+	border-radius: 10px; 
 	cursor: pointer; 
     box-shadow: 15px 15px 15px rgba(0, 0, 0, .5);
     transition: all 0.5s ease-in-out;
 } 
 
 .content-student-email .btn input[type="reset"]:hover {
-    color: #201e8d;
-    background-image: linear-gradient(180deg, #2c6cbc, #71c3f7,#f6f6f6);
+    color: #095132;
+    background-image: linear-gradient(135deg, #18fc99,#aaffda);
     transform: scale(1.2);
     box-shadow: 15px 15px 15px rgba(0, 0, 0, .7);
 }
@@ -782,7 +795,7 @@ footer img {
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
         padding: 8px 12px;
         border: none;
-        border-radius: 36px;
+        border-radius: 10px;
         cursor: pointer;
     }
 
@@ -803,7 +816,7 @@ footer img {
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
         padding: 8px 12px;
         border: none;
-        border-radius: 36px;
+        border-radius: 10px;
         cursor: pointer;
     }
 
