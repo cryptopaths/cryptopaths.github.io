@@ -1315,40 +1315,6 @@
             </header>
 
             <div class="content-student-email">
-                <div class="right-pane">
-                    <div id="error_message"></div>
-
-                    <form action="" id="myform" onsubmit="return validate();">
-                        <input type="hidden" name="access_key" value="206cec56-fb01-4a94-ba20-c4f90f54d2b9">
-
-                        <div class="input_field">
-                            <input type="text" placeholder="Email" id="email" name="email" required>
-                        </div>
-                        <div class="input_field">
-                            <input type="text" placeholder="Name" id="form_name" name="name" required>
-                        </div>
-                        <div class="input_field">
-                            <input type="text" placeholder="Subject" id="subject" name="subject" required>
-                        </div>
-                        <div class="input_field">
-                            <input type="text" placeholder="Phone" id="phone" name="phone" required>
-                        </div>
-                        <div class="input_field">
-                            <textarea placeholder="Message" id="message" name="message" required></textarea>
-                        </div>
-
-                        <div class="info-button">
-                            <div class="btn">
-                                <input type="reset" value="RESET &#11119;" style="font-family: Marcellus, sans-serif; font-weight: bolder; font-size: 1.07em;">
-                            </div>
-                            <div class="btn">
-                                <input type="submit" id="submit_button" value="SUBMIT &#9993" style="font-family: Marcellus, sans-serif; font-weight: bolder; font-size: 1.07em;">
-                            </div>
-                        </div>
-
-                        <div id="result"></div>
-                    </form>
-                </div>
 
                 <div class="left-pane">
                     <div class="info-pane">
@@ -1370,6 +1336,47 @@
                     
                     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/8c0938aa-5e57-4498-8f7b-6d6eb713972c/eXsV4UNukX.json" background="transparent" speed="1" style="width: 200px; height: 200px" direction="1" playMode="bounce" loop autoplay></dotlottie-player>
                         <!-- CHECK THIS WEBSITE : https://lottiefiles.com/ -->
+                </div>
+
+                <div class="right-pane">
+                    <div class="pane-fields">
+
+                        <div id="error_message"></div>
+
+                        <form action="" id="myform" onsubmit="return validate();">
+
+                        <input type="hidden" name="access_key" value="206cec56-fb01-4a94-ba20-c4f90f54d2b9">
+
+                        <div class="input_field">
+                            <input type="text" placeholder="Email" id="email" name="email" required>
+                        </div>
+                        <div class="input_field">
+                            <input type="text" placeholder="Name" id="form_name" name="name" required>
+                        </div>
+                        <div class="input_field">
+                            <input type="text" placeholder="Subject" id="subject" name="subject" required>
+                        </div>
+                        <div class="input_field">
+                            <input type="text" placeholder="Phone" id="phone" name="phone" required>
+                        </div>
+                        <div class="input_field">
+                            <textarea placeholder="Message" id="message" name="message" required></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="info-button">
+                        <div class="btn">
+                            <input type="reset" value="RESET &#11119;" style="font-family: Marcellus, sans-serif; font-weight: bolder; font-size: 1.07em;">
+                        </div>
+                        <div class="btn">
+                            <input type="submit" id="submit_button" value="SUBMIT &#9993" style="font-family: Marcellus, sans-serif; font-weight: bolder; font-size: 1.07em;">
+                        </div>
+                    </div>
+
+                    <div id="result"></div>
+
+                    </form>
                 </div>
             </div>
         </section>
