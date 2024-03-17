@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     submitButton.addEventListener('click', function (e) {
         e.preventDefault();
-        console.log("Form submitted Successfully !!! ARGHA123");
+        console.log("Form submitted Successfully !");
         validate(); // Call the validate function before sending the email
     });
 
@@ -95,14 +95,17 @@ document.addEventListener('DOMContentLoaded', function () {
             let jsonResponse = await response.json();
             if (response.status == 200) {
                 result.innerHTML = jsonResponse.message;
+                window.alert(jsonResponse.message);
             } else {
                 console.log(response);
                 result.innerHTML = jsonResponse.message;
+                window.alert(jsonResponse.message);
             }
         })
         .catch(error => {
             console.log(error);
             result.innerHTML = "Something went wrong!";
+            window.alert("Something went wrong !");
         })
         .then(function () {
             form.reset();

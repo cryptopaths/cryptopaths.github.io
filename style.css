@@ -544,6 +544,7 @@ footer img {
 
 .left-pane .info-pane i {
     margin-right: 10px;
+    z-index: 35;
 }
 
 .right-pane {
@@ -553,7 +554,7 @@ footer img {
     flex: 1;
     padding: 25px;
 	justify-content: center;
-    z-index: 15;
+    z-index: 35;
 }
 
 .content-student-email h2 { 
@@ -661,7 +662,8 @@ footer img {
     display: none;
 	margin-bottom: 15px; 
 	background: #fe8b8e;
-    border: 1px solid #ff2e2e;  
+    color : #691515;
+    border: 1px solid #691515;  
 	padding: 10px; 
 	text-align: center; 
 	font-size: 15px; 
@@ -976,7 +978,7 @@ footer img {
         border-radius: 10px 10px 0 0;
         box-shadow: 10px 0 10px rgba(0, 0, 0, 0.6);
         width: 100%; /* Each pane takes full width on small screens */
-        z-index: 15;
+        z-index: 35;
     }
 
     .right-pane {
@@ -984,7 +986,7 @@ footer img {
         border-radius: 0 0 10px 10px;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
         width: 100%; /* Each pane takes full width on small screens */
-        z-index: 15;
+        z-index: 35;
     }
 
     .content-student-email .info-button {
@@ -1008,5 +1010,5 @@ footer img {
 }
 
 #result {
-    color: white;
+    display: none;
 }
