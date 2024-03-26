@@ -63,7 +63,7 @@ body {
     position: fixed;
     top: 30px;
     right: 30px;
-    z-index: -1;
+    z-index: 30;
 }
 
 .logo {
@@ -545,7 +545,7 @@ footer img {
 	align-items: center;
     background-color: rgba(255, 255, 255, 0.6);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
-    border-radius: 0 10px 10px 0;
+    border-radius: 10px 0 0 10px;
     position: relative;
     z-index: 15;
 }
@@ -568,7 +568,7 @@ footer img {
 .right-pane {
     background-image: linear-gradient(45deg, rgba(71, 16, 105, 1), rgba(20, 82, 119, 1),rgba(48, 197, 210, 1),rgba(131, 208, 203, 1));
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
-    border-radius: 10px 0 0 10px;
+    border-radius: 0 10px 10px 0;
     flex: 1;
     padding: 25px;
 	justify-content: space-between;
@@ -770,7 +770,7 @@ footer img {
         position: fixed;
         top: 10px;
         left: 10px;
-        z-index: -1;
+        z-index: 30;
     }
     
     .logo {
@@ -996,10 +996,14 @@ footer img {
         margin-top: 80px; 
     }
 
+    .content-student-misc {
+        margin-bottom: 0px;
+    }
+
     .content-student-email{
         font-family: 'Marcellus', serif;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         /* background-color: rgba(255, 255, 255, 0.6); */
@@ -1027,7 +1031,7 @@ footer img {
 
     .content-student-email .info-button {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center; /* Center the buttons horizontally */
     }
     
