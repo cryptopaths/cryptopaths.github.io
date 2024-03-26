@@ -115,4 +115,39 @@ document.addEventListener('DOMContentLoaded', function () {
             }, 3000);
         });
     }
+    
+    var button = document.getElementById('download-button-cp');
+    var email = button.getAttribute('data-email');
+
+    button.addEventListener('click', function () {
+        var confirmed = confirm("Would you like to send mail to " + email + "?");
+
+        if (confirmed) {
+            window.location.href = "mailto:" + email;
+        } else {
+            var copyButton = document.createElement('button');
+            copyButton.textContent = "Copy Email";
+            copyButton.addEventListener('click', function () {
+                navigator.clipboard.writeText(email).then(function () {
+                    alert("Email copied to clipboard: " + email);
+                }, function (err) {
+                    console.error('Could not copy text: ', err);
+                });
+            });
+
+            var cancelButton = document.createElement('button');
+            cancelButton.textContent = "Cancel";
+            cancelButton.addEventListener('click', function () {
+                alert("Email copy cancelled.");
+            });
+
+            var messageDiv = document.createElement('div');
+            messageDiv.textContent = "Email: " + email;
+            messageDiv.appendChild(copyButton);
+            messageDiv.appendChild(cancelButton);
+
+            alert("Would you like to copy the email instead?");
+            document.body.appendChild(messageDiv);
+        }
+    });
 });
