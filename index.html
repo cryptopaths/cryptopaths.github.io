@@ -48,11 +48,11 @@
     <div class="start-page-action">
 
         <div class="start-page-button" id="scroll-to-student">
-            <button>&#127891; STUDENTS</button>
+            <button><i class="fas fa-user-graduate"></i> STUDENTS</button>
         </div>
 
         <div class="start-page-mail" id="scroll-to-contact-us">
-            <button>&#9743; CONTACT US</button>
+            <button><i class="fas fa-envelope"></i> CONTACT US</button>
         </div>
 
     </div>
@@ -1287,17 +1287,54 @@
 
         <section class="student-profile">
 
-            <header class="header-rev">
+            <header class="header-rev-contact-us">
                 <div class="info">
                     <h1 class="name-contact">CONTACT US</h1>
                 </div>
             </header>
 
             <div class="content-student-email">
-                <div class="right-pane">
-                    <div id="error_message"></div>
 
-                    <form action="" id="myform" onsubmit="return validate();">
+                <div class="left-pane">
+                    <div class="info-pane">
+                        <i class="fas fa-phone"></i>
+                        <span><b>Phone (Class Representative) </b>: +91 80173 06564 (Subhradip)</span>
+                    </div>
+                    <div class="info-pane">
+                        <i class="fas fa-phone"></i>
+                        <span><b>Phone (Placement Representative) </b>: +91 86178 59360 (Soham) </span>
+                    </div>
+                    <div class="info-pane">
+                        <i class="fas fa-phone"></i>
+                        <span><b>Phone (Placement Representative) </b>: +91 82936 78278 (Jhelum) </span>
+                    </div>
+                    <div class="info-pane">
+                        <i class="fas fa-phone"></i>
+                        <span><b>Phone (Placement Representative) </b>: +91 76880 10310 (Priti) </span>
+                    </div>
+                    <div class="info-pane">
+                        <i class="fas fa-envelope"></i>
+                        <span><b>Email </b>:  isi-mtech-crs-2023-25 [at] googlegroups [dot] com</span>
+                    </div>
+                    <div class="info-pane">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span><b>Address </b>: Indian Statistical Institute, 203 Barrackpore Trunk Road, Kolkata 700108, India</span>
+                    </div>
+                    
+                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/8c0938aa-5e57-4498-8f7b-6d6eb713972c/eXsV4UNukX.json" background="transparent" speed="1" style="width: 200px; height: 200px" direction="1" playMode="bounce" loop autoplay></dotlottie-player>
+                        <!-- CHECK THIS WEBSITE : https://lottiefiles.com/ -->
+                </div>
+
+                <div class="right-pane">
+                    <div class="pane-fields">
+                        <div style="text-align: center;">
+                            <h1><i>Please fill this form to Contact Us Directly</i></h1>
+                          </div>
+                        <br>
+                        <div id="error_message"></div>
+
+                        <form action="" id="myform" onsubmit="return validate();">
+
                         <input type="hidden" name="access_key" value="206cec56-fb01-4a94-ba20-c4f90f54d2b9">
 
                         <div class="input_field">
@@ -1316,39 +1353,20 @@
                             <textarea placeholder="Message" id="message" name="message" required></textarea>
                         </div>
 
-                        <div class="info-button">
-                            <div class="btn">
-                                <input type="reset" value="RESET" style="font-family: Marcellus, sans-serif; font-weight: bolder; font-size: 1.07em;">
-                            </div>
-                            <div class="btn">
-                                <input type="submit" id="submit_button" value="SUBMIT" style="font-family: Marcellus, sans-serif; font-weight: bolder; font-size: 1.07em;">
-                            </div>
+                    </div>
+
+                    <div class="info-button">
+                        <div class="btn">
+                            <input type="reset" value="RESET" style="font-family: Marcellus, sans-serif; font-weight: bolder; font-size: 1.07em;">
                         </div>
+                        <div class="btn">
+                            <input type="submit" id="submit_button" value="SUBMIT" style="font-family: Marcellus, sans-serif; font-weight: bolder; font-size: 1.07em;">
+                        </div>
+                    </div>
 
-                        <div id="result"></div>
+                    <div id="result"></div>
+
                     </form>
-                </div>
-
-                <div class="left-pane">
-                    <div class="info-pane">
-                        <i class="fas fa-phone"></i>
-                        <span><b>Phone (Class Representative) </b>: +91 80173 06564 (Subhradip)</span>
-                    </div>
-                    <div class="info-pane">
-                        <i class="fas fa-phone"></i>
-                        <span><b>Phone (Placement Representative) </b>: +91 86178 59360 (Soham) </span>
-                    </div>
-                    <div class="info-pane">
-                        <i class="fas fa-envelope"></i>
-                        <span><b>Email </b>:  isi-mtech-crs-2023-25 [at] googlegroups [dot] com</span>
-                    </div>
-                    <div class="info-pane">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span><b>Address </b>: Indian Statistical Institute, 203 Barrackpore Trunk Road, Kolkata 700108, India</span>
-                    </div>
-                    
-                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/8c0938aa-5e57-4498-8f7b-6d6eb713972c/eXsV4UNukX.json" background="transparent" speed="1" style="width: 200px; height: 200px" direction="1" playMode="bounce" loop autoplay></dotlottie-player>
-                        <!-- CHECK THIS WEBSITE : https://lottiefiles.com/ -->
                 </div>
             </div>
         </section>
