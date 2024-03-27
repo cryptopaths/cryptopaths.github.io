@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    var buttons = document.querySelectorAll('.download-button');
+    var buttons = document.querySelectorAll('.email-button');
 
     buttons.forEach(function(button) {
         var email = button.getAttribute('data-email');
