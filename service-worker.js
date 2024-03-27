@@ -4,10 +4,9 @@ const urlsToCache = [
   '/index.html',
   '/style.css',
   '/script.js',
-  '/manifest.json',
-  '/APP_LOGO/app_192.png',
-  '/APP_LOGO/app_180.png',
-  '/APP_LOGO/app_512.png',
+  '/APP_LOGO/app_mask_192.png',
+  '/APP_LOGO/app_mask_180.png',
+  '/APP_LOGO/app_mask_512.png',
   '/SKY_TOP.jpg',
   // Add more URLs to cache as needed
 ];

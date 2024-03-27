@@ -1,7 +1,7 @@
 {
     "name": "THE CRYPTOPATHS",
-    "short_name": "CRYPTOPATHS",
-    "description": "Class Website of ISI Kolkata's M.Tech. CrS Batch of 2023-25",
+    "short_name": "ISI CrS",
+    "description": "Class Website for ISI Kolkata's M.Tech. CrS Batch of 2023-25",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#35374B",
@@ -35,7 +35,7 @@
             "src": "/APP_LOGO/app_192.png",
             "sizes": "192x192",
             "type": "image/png",
-            "purpose": "maskable"
+            "purpose": "any"
           },
           {
             "src": "/APP_LOGO/app_180.png",
@@ -66,7 +66,31 @@
             "sizes": "1920x1920",
             "type": "image/png",
             "purpose": "any"
-        }
+        },
+        {
+          "src": "/APP_LOGO/app_mask_180.png",
+          "sizes": "180x180",
+          "type": "image/png",
+          "purpose": "maskable"
+      },
+      {
+        "src": "/APP_LOGO/app_mask_192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/APP_LOGO/app_mask_512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/APP_LOGO/app_mask_1920.png",
+        "sizes": "1920x1920",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
     ],
     "scope": "/",
     "orientation": "portrait",
