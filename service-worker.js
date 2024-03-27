@@ -8,8 +8,6 @@ const urlsToCache = [
   '/APP_LOGO/app_192.png',
   '/APP_LOGO/app_180.png',
   '/APP_LOGO/app_512.png',
-  '/APP_LOGO/app_1024.png',
-  '/FRONT_NEW.jpg',
   '/SKY_TOP.jpg',
   // Add more URLs to cache as needed
 ];
