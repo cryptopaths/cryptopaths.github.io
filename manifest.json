@@ -33,6 +33,11 @@
             "type": "image/png"
           },
           {
+            "src": "/APP_LOGO/app_180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+          },
+          {
             "src": "/APP_LOGO/app_256.png",
             "sizes": "256x256",
             "type": "image/png"
