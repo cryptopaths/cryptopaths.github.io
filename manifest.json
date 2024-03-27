@@ -1,0 +1,63 @@
+{
+    "name": "THE CRYPTOPATHS",
+    "short_name": "CRYPTOPATHS",
+    "description": "Class Website of ISI Kolkata's M.Tech. CrS Batch of 2023-25",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#35374B",
+    "theme_color": "#00224D",
+    "icons": [
+        {
+            "src": "/APP_LOGO/app_16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+          },
+          {
+            "src": "/APP_LOGO/app_32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+          },
+          {
+            "src": "/APP_LOGO/app_64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+          },
+          {
+            "src": "/APP_LOGO/app_128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+          },
+          {
+            "src": "/APP_LOGO/app_192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+          {
+            "src": "/APP_LOGO/app_256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+          },
+        {
+            "src": "/APP_LOGO/app_512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/APP_LOGO/app_1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/APP_LOGO/app_1920.png",
+            "sizes": "1920x1920",
+            "type": "image/png"
+        }
+    ],
+    "scope": "/",
+    "orientation": "portrait",
+    "lang": "en",
+    "dir": "ltr",
+    "prefer_related_applications": false,
+    "related_applications": []
+  }
+  
