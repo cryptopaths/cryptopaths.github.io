@@ -20,37 +20,41 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('fetch', event => {
-  event.respondWith(
-    caches.match(event.request)
-      .then(response => {
-        // Cache hit - return response
-        if (response) {
-          return response;
-        }
+  const { request } = event;
 
-        // Clone the request to ensure it can be used multiple times
-        const fetchRequest = event.request.clone();
+  // Check if the request has a supported scheme
+  if (request.url.startsWith('http')) {
+    event.respondWith(
+      caches.match(request)
+        .then(response => {
+          if (response) {
+            return response; // Cache hit - return response
+          }
 
-        return fetch(fetchRequest).then(
-          response => {
-            // Check if we received a valid response
-            if (!response || response.status !== 200 || response.type !== 'basic') {
+          // Clone the request to ensure it can be used multiple times
+          const fetchRequest = request.clone();
+
+          return fetch(fetchRequest).then(
+            response => {
+              // Check if we received a valid response
+              if (!response || response.status !== 200 || response.type !== 'basic') {
+                return response;
+              }
+
+              // Clone the response to ensure it can be used multiple times
+              const responseToCache = response.clone();
+
+              caches.open(CACHE_NAME)
+                .then(cache => {
+                  cache.put(request, responseToCache); // Cache the response
+                });
+
               return response;
             }
-
-            // Clone the response to ensure it can be used multiple times
-            const responseToCache = response.clone();
-
-            caches.open(CACHE_NAME)
-              .then(cache => {
-                cache.put(event.request, responseToCache);
-              });
-
-            return response;
-          }
-        );
-      })
-  );
+          );
+        })
+    );
+  }
 });
 
 self.addEventListener('activate', event => {
