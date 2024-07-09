@@ -163,15 +163,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 window.location.href = "mailto:" + email;
             } else {
                 var copyConfirmed = confirm("Would you like to copy the email instead?");
-                if (copyConfirmed) {
-                    navigator.clipboard.writeText(email).then(function () {
-                        alert("Email copied to clipboard: " + email);
-                    }, function (err) {
-                        console.error('Could not copy text: ', err);
-                    });
-                } else {
-                    alert("Email copy cancelled.");
-                }
+                navigator.clipboard.writeText(email).then(function () {
+                alert("Email copied to clipboard: " + email);
+                }); 
             }
         });
     });
