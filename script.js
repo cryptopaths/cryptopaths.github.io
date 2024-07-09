@@ -118,41 +118,65 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var buttons = document.querySelectorAll('.email-button');
 
-    buttons.forEach(function(button) {
-        var email = button.getAttribute('data-email');
+    // buttons.forEach(function(button) {
+    //     var email = button.getAttribute('data-email');
 
+    //     button.addEventListener('click', function () {
+    //         var confirmed = confirm("Would you like to send mail to " + email + "?");
+
+    //         if (confirmed) {
+    //             window.location.href = "mailto:" + email;
+    //         } else {
+    //             var copyButton = document.createElement('button');
+    //             copyButton.textContent = "Copy Email";
+    //             copyButton.addEventListener('click', function () {
+    //                 navigator.clipboard.writeText(email).then(function () {
+    //                     alert("Email copied to clipboard: " + email);
+    //                 }, function (err) {
+    //                     console.error('Could not copy text: ', err);
+    //                 });
+    //             });
+
+    //             var cancelButton = document.createElement('button');
+    //             cancelButton.textContent = "Cancel";
+    //             cancelButton.addEventListener('click', function () {
+    //                 alert("Email copy cancelled.");
+    //             });
+
+    //             var messageDiv = document.createElement('div');
+    //             messageDiv.textContent = "Email: " + email;
+    //             messageDiv.appendChild(copyButton);
+    //             messageDiv.appendChild(cancelButton);
+
+    //             alert("Would you like to copy the email instead?");
+    //             document.body.appendChild(messageDiv);
+    //         }
+    //     });
+    // });
+
+    buttons.forEach(function(button) {
         button.addEventListener('click', function () {
+            var email = this.getAttribute('data-email'); // Assuming the email is stored in a data attribute
             var confirmed = confirm("Would you like to send mail to " + email + "?");
 
             if (confirmed) {
                 window.location.href = "mailto:" + email;
             } else {
-                var copyButton = document.createElement('button');
-                copyButton.textContent = "Copy Email";
-                copyButton.addEventListener('click', function () {
+                var copyConfirmed = confirm("Would you like to copy the email instead?");
+                if (copyConfirmed) {
                     navigator.clipboard.writeText(email).then(function () {
                         alert("Email copied to clipboard: " + email);
                     }, function (err) {
                         console.error('Could not copy text: ', err);
                     });
-                });
-
-                var cancelButton = document.createElement('button');
-                cancelButton.textContent = "Cancel";
-                cancelButton.addEventListener('click', function () {
+                } else {
                     alert("Email copy cancelled.");
-                });
-
-                var messageDiv = document.createElement('div');
-                messageDiv.textContent = "Email: " + email;
-                messageDiv.appendChild(copyButton);
-                messageDiv.appendChild(cancelButton);
-
-                alert("Would you like to copy the email instead?");
-                document.body.appendChild(messageDiv);
+                }
             }
         });
     });
+
+    
 
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
